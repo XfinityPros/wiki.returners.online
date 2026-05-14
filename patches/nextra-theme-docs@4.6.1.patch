@@ -1,0 +1,13 @@
+diff --git a/dist/schemas.js b/dist/schemas.js
+index 3213f44..4515b62 100644
+--- a/dist/schemas.js
++++ b/dist/schemas.js
+@@ -65,7 +65,7 @@ const LayoutPropsSchema = z.strictObject({
+   banner: reactNode.optional().meta({
+     description: "Rendered [`<Banner>` component](/docs/built-ins/banner). E.g. `<Banner {...bannerProps} />`"
+   }),
+-  children: reactNode,
++  children: reactNode.optional(),
+   copyPageButton: z.boolean().default(true).meta({
+     description: "Hide/show copy page content button."
+   }),
