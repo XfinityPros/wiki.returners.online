@@ -8,12 +8,13 @@ export default function Banner() {
       role="banner "
     >
       <span>
-        🎉 Game development started.{" "}
+        🎉 Alpha game development started.{" "}
         <Link
           href="https://www.returners.online/changelog"
           className="text-sm underline"
+          target="_blank"
         >
-          View Changelog
+          Changelog
         </Link>
         <LinkArrowIcon className="-mt-1 inline size-3" />
       </span>

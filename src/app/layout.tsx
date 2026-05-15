@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "nextra-theme-docs/style.css";
 import { Inter } from "next/font/google";
-import { Anchor, Head, Image } from "nextra/components";
+import { Anchor, Head, Image, Search } from "nextra/components";
 import { Footer, Layout, Navbar } from "nextra-theme-docs";
 import Banner from "@/components/banner";
 import { Icons } from "@/components/icons";
@@ -60,6 +60,9 @@ export default async function RootLayout({
       <body>
         <Layout
           banner={<Banner />}
+          docsRepositoryBase="https://github.com/XfinityPros/wiki.returners.online"
+          editLink="Edit this page on GitHub"
+          search={<Search placeholder="Search wiki" />}
           sidebar={{
             defaultMenuCollapseLevel: 1,
           }}
@@ -67,13 +70,12 @@ export default async function RootLayout({
           feedback={{
             link: "mailto:returnersonline@gmail.com",
           }}
-          editLink={false}
           pageMap={await getPageMap()}
           footer={footer}
           toc={{
             extraContent: (
               <>
-                <b className="mt-2 text-xs">Maintained by:</b>
+                <b className="mt-2 text-xs">Maintained by the community and:</b>
                 {[
                   {
                     url: "https://www.xfinitypros.com",
