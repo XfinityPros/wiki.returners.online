@@ -17,6 +17,10 @@ export default {
     title: "Development Roadmap",
     type: "doc",
   },
+  "temporary-ai-art": {
+    title: "AI Art Disclaimer",
+    type: "doc",
+  },
   world: {
     title: "World",
     type: "separator",

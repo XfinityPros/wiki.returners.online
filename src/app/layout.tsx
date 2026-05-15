@@ -8,6 +8,7 @@ import Banner from "@/components/banner";
 import { Icons } from "@/components/icons";
 import { getPageMap } from "nextra/page-map";
 import xfinityProsBanner from "@/images/xfinity-pros-banner.webp";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Returners Online Wiki",
@@ -24,6 +25,12 @@ const navbar = (
       chatLink="https://discord.gg/A5FNGmEYV"
       chatIcon={<Icons.discordIcon className="h-8 w-fit" />}
     />
+    <div className="bg-primaryColor w-full py-2 text-center text-sm text-black">
+      AI art used for demonstration only!{" "}
+      <Link href="/temporary-ai-art" className="underline">
+        Learn More
+      </Link>
+    </div>
   </div>
 );
 
