@@ -3,16 +3,12 @@ export default {
     title: "Overview",
     type: "doc",
   },
-  head: {
-    title: "Head",
+  relic: {
+    title: "Relic",
     type: "doc",
   },
-  chest: {
-    title: "Chest",
-    type: "doc",
-  },
-  back: {
-    title: "Back",
+  cape: {
+    title: "Cape",
     type: "doc",
   },
   bag: {
@@ -21,18 +17,6 @@ export default {
   },
   ring: {
     title: "Ring",
-    type: "doc",
-  },
-  "main-hand": {
-    title: "Main Hand",
-    type: "doc",
-  },
-  "off-hand": {
-    title: "Off Hand",
-    type: "doc",
-  },
-  boots: {
-    title: "Boots",
     type: "doc",
   },
   mount: {

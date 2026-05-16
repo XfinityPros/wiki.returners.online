@@ -6,7 +6,7 @@ export default {
   main: {
     title: "Main Site",
     type: "page",
-    href: "https://wwww.returners.online",
+    href: "https://www.returners.online",
   },
   wiki: {
     title: "Wiki",
@@ -29,10 +29,6 @@ export default {
     title: "The Royal City",
     type: "doc",
   },
-  tribes: {
-    title: "Tribes",
-    type: "doc",
-  },
   "summoned-worlds": {
     title: "Summoned Worlds",
     type: "doc",
@@ -45,12 +41,24 @@ export default {
     title: "Creeps",
     type: "doc",
   },
+  dungeons: {
+    title: "Dungeons",
+    type: "doc",
+  },
   "gameplay-systems": {
     title: "Gameplay Systems",
     type: "separator",
   },
   summoning: {
     title: "Summoning",
+    type: "doc",
+  },
+  elections: {
+    title: "Elections",
+    type: "doc",
+  },
+  blessings: {
+    title: "Blessings",
     type: "doc",
   },
   "win-conditions": {

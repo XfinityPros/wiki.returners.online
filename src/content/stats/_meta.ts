@@ -15,12 +15,12 @@ export default {
     title: "Faith",
     type: "doc",
   },
-  health: {
-    title: "Health",
+  favor: {
+    title: "Favor",
     type: "doc",
   },
-  stamina: {
-    title: "Stamina",
+  health: {
+    title: "Health",
     type: "doc",
   },
 };
