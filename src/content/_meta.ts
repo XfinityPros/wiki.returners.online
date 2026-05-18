@@ -69,10 +69,6 @@ export default {
     title: "Curses",
     type: "doc",
   },
-  "win-conditions": {
-    title: "Win Conditions",
-    type: "doc",
-  },
   marriage: {
     title: "Marriage",
     type: "doc",
