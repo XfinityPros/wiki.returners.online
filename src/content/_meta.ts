@@ -61,6 +61,10 @@ export default {
     title: "Blessings",
     type: "doc",
   },
+  curses: {
+    title: "Curses",
+    type: "doc",
+  },
   "win-conditions": {
     title: "Win Conditions",
     type: "doc",

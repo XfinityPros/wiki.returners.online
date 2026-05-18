@@ -11,16 +11,20 @@ export default {
     title: "Reputation",
     type: "doc",
   },
-  faith: {
-    title: "Faith",
-    type: "doc",
-  },
   favor: {
     title: "Favor",
     type: "doc",
   },
+  corruption: {
+    title: "Corruption",
+    type: "doc",
+  },
   health: {
     title: "Health",
+    type: "doc",
+  },
+  mana: {
+    title: "Mana",
     type: "doc",
   },
 };

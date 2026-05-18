@@ -3,24 +3,16 @@ export default {
     title: "Overview",
     type: "doc",
   },
-  relic: {
-    title: "Relic",
-    type: "doc",
-  },
-  cape: {
-    title: "Cape",
-    type: "doc",
-  },
-  bag: {
-    title: "Bag",
-    type: "doc",
-  },
-  ring: {
-    title: "Ring",
+  artifacts: {
+    title: "Artifacts",
     type: "doc",
   },
   mount: {
     title: "Mount",
+    type: "doc",
+  },
+  ring: {
+    title: "Ring",
     type: "doc",
   },
 };
