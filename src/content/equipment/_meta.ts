@@ -15,4 +15,8 @@ export default {
     title: "Ring",
     type: "doc",
   },
+  "divine-treasures": {
+    title: "Divine Treasures",
+    type: "doc",
+  },
 };

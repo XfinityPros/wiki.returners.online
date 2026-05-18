@@ -37,12 +37,12 @@ export default {
     title: "Gods",
     type: "doc",
   },
-  monsters: {
-    title: "Monsters",
+  spawns: {
+    title: "Spawns",
     type: "doc",
   },
-  dungeons: {
-    title: "Dungeons",
+  roads: {
+    title: "Roads",
     type: "doc",
   },
   "gameplay-systems": {
@@ -51,6 +51,10 @@ export default {
   },
   summoning: {
     title: "Summoning",
+    type: "doc",
+  },
+  returning: {
+    title: "Returning",
     type: "doc",
   },
   elections: {
