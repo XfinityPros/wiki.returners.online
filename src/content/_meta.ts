@@ -37,8 +37,8 @@ export default {
     title: "Gods",
     type: "doc",
   },
-  creeps: {
-    title: "Creeps",
+  monsters: {
+    title: "Monsters",
     type: "doc",
   },
   dungeons: {

@@ -9,6 +9,8 @@ import { Icons } from "@/components/icons";
 import { getPageMap } from "nextra/page-map";
 import xfinityProsBanner from "@/images/xfinity-pros-banner.webp";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/react";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "Returners Online Wiki",
@@ -108,6 +110,8 @@ export default async function RootLayout({
         >
           {children}
         </Layout>
+        <Analytics />
+        <GoogleAnalytics gaId={"G-Y6EMN5RFP1"} />
       </body>
     </html>
   );
