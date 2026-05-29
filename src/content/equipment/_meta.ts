@@ -7,6 +7,10 @@ export default {
     title: "Artifacts",
     type: "doc",
   },
+  relics: {
+    title: "Relics",
+    type: "doc",
+  },
   mount: {
     title: "Mount",
     type: "doc",
