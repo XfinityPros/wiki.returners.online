@@ -57,16 +57,12 @@ export default {
     title: "Returning",
     type: "doc",
   },
-  elections: {
-    title: "Elections",
+  wards: {
+    title: "Ward Warfare",
     type: "doc",
   },
-  blessings: {
-    title: "Blessings",
-    type: "doc",
-  },
-  curses: {
-    title: "Curses",
+  guilds: {
+    title: "Guild Warfare",
     type: "doc",
   },
   marriage: {
@@ -83,6 +79,18 @@ export default {
   },
   titles: {
     title: "Titles",
+    type: "doc",
+  },
+  wardens: {
+    title: "Wardens",
+    type: "doc",
+  },
+  blessings: {
+    title: "Blessings",
+    type: "doc",
+  },
+  curses: {
+    title: "Curses",
     type: "doc",
   },
   stats: {
