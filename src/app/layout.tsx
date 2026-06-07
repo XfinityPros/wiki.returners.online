@@ -14,7 +14,8 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "Returners Online Wiki",
-  description: "All about Returners Online, the social MMORPG by Xfinity Pros.",
+  description:
+    "All about Returners Online, the Sandbox Fantasy MMORPG by Xfinity Pros.",
 };
 
 const inter = Inter({ subsets: ["latin"] });
